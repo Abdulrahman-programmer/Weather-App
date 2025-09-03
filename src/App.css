@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@layer components{
+    .box{
+        @apply p-5 text-center bg-white/30 backdrop-blur-none 
+        rounded-xl text-black/500  pt-10 h-[80vh] max-w-[90vh]
+         inset-ring-2 inset-ring-black shadow-[0_0_30px_rgba(0,0,0,0.8)]
+    }
+}
